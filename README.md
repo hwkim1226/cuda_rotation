@@ -4,4 +4,4 @@
 2. Using NPPI (nppiRotate_8u_C1R)
 3. Using NPPI (nppiRotate_8u_C1R_Ctx)
 * nppiRotate_8u_C1R_Ctx is available in CUDA version 10.2 and later.
-* This codes are for grayscale images.
+* This codes work for grayscale images.
