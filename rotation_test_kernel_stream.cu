@@ -49,7 +49,7 @@ int main()
 
 	for (int i = 0; i < img_num; i++)
 	{
-		img[i] = read_BMP_opencv("input_images/src2048.bmp", f_width, f_height);
+		img[i] = read_BMP_opencv("input_images/src.bmp", f_width, f_height);
 		data[i] = img[i].data;
 	}
 
@@ -99,7 +99,7 @@ int main()
 		result[i] = Mat(f_height, f_width, CV_8UC1);
 		result[i].data = h_result[i];
 
-		sprintf(buf, "output_images/test2048_rotated_kernel_%d.bmp", i);
+		sprintf(buf, "output_images/rotated_kernel_%d.bmp", i);
 		imwrite(buf, result[i]);
 	}
 
