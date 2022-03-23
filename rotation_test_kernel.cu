@@ -76,7 +76,7 @@ int main()
 	result = Mat(f_height, f_width, CV_8UC1);
 	result.data = h_result;
 
-	sprintf(buf, "output_images/test2048_rotated_kernel_%d.bmp");
+	sprintf(buf, "output_images/test2048_rotated_kernel.bmp");
 	imwrite(buf, result);
 
 	return 0;
